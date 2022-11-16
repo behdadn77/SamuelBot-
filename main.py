@@ -55,6 +55,7 @@ def echo(update, context):
             break
     if strike == 6:
         update.message.reply_text("ENGLISH 🤬🤬🤬🤬 DO YOU SPEAK IT?")
+        strike = 0
 
 
 
